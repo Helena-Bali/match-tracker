@@ -1,0 +1,88 @@
+.main-parent {
+    @apply w-screen h-fit bg-black min-h-screen text-white overflow-x-hidden
+}
+
+.top {
+    @apply flex justify-between ml-[42px] mr-[42px] max-w-[1836px]
+}
+
+.name {
+    @apply text-2xl mt-[53px] w-[257px] h-[32px] font-tactic font-bold
+}
+
+.parent-error {
+    @apply flex items-center justify-between h-fit w-fit gap-3 mt-[42px]
+}
+
+.error {
+    @apply h-[56px] w-[480px] flex items-center bg-[#0F1318] text-white p-3 justify-between
+}
+
+.alert-triangle {
+    @apply w-[28px] h-[28px] ml-4
+}
+
+.error-message {
+    @apply h-[22px] w-[394px]
+}
+
+.refresh-button {
+    @apply h-[56px] w-[204px] bg-[#EB0237] px-4 py-1 rounded flex justify-center items-center text-center
+}
+
+.refresh-arrow {
+    @apply flex items-center text-center
+}
+
+.refresh-img {
+    @apply w-[26px] h-[26px] ml-2
+}
+
+.matches-block {
+    @apply space-y-2 mt-[20px] ml-[42px] mr-[42px] max-w-[1836px]  h-fit
+}
+
+.matches-div {
+    @apply min-h-[87px] max-w-[1836px] bg-[#0B0E12] p-4 flex justify-between items-center
+}
+
+.command-div {
+    @apply flex items-center h-[48px] max-w-[171px] gap-[14px]
+}
+
+.team-logo {
+    @apply w-[48px] h-[48px]
+}
+.score-block {
+    @apply flex flex-col items-center
+}
+.score {
+    @apply h-[24px] w-fit text-[20px] flex justify-center items-center rounded text-white text-center
+}
+
+.green {
+    @apply bg-[#43AD28]
+}
+
+.red {
+    @apply bg-[#EB0237]
+}
+
+.orange {
+    @apply bg-[#EB6402]
+}
+
+.status-bg {
+    @apply h-[27px] w-[92px] px-3 py-1 rounded font-bold text-white text-center
+}
+
+.status {
+    @apply text-sm block text-center
+}
+
+.command2-div {
+    @apply flex items-center h-[48px] max-w-[209px] gap-[14px]
+}
+.expand-arrow {
+    @apply w-[28px] h-[28px]
+}

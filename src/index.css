@@ -1,3 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("./assets/fonts/TacticSans-RegIt.woff") format("woff");
+  font-weight: 400; /* Regular Italic */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("./assets/fonts/TacticSans-MedIt.woff") format("woff");
+  font-weight: 500; /* Medium Italic */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("./assets/fonts/TacticSans-BldIt.woff") format("woff");
+  font-weight: 700; /* Bold Italic */
+  font-style: italic;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

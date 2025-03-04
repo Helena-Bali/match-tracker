@@ -1,0 +1,43 @@
+.toggled-parent {
+    @apply bg-[#0B0E12] p-4 transition-all duration-300 ease-in-out transform;
+}
+
+.user-container {
+    @apply flex items-center justify-between mb-2 w-[286px] h-[52px] bg-[#101318]
+}
+
+.user-parent-cont {
+    @apply flex items-center justify-between w-[874px] h-[52px]
+}
+
+.score-container {
+    @apply flex items-center justify-center bg-[#101318] w-[874px] h-[52px] mt-2 gap-[200px]
+}
+.score-item {
+    @apply  mb-2 text-[#FAFAFA66]
+}
+
+.score-number {
+    @apply text-white ml-2
+}
+
+.avatar-container {
+    @apply w-[149px] h-[36px] flex items-center ml-[8px]
+}
+
+.inner-toggled-parent {
+    @apply w-[1804px] h-[136px] bg-[#0B0E12]
+}
+
+.team-container {
+    @apply w-[874px] h-[112px] ml-3 mt-3
+}
+
+.avatar {
+    @apply w-[36px] h-[36px] ml-[8px] mr-2
+}
+.murders-container {
+    @apply text-[#FAFAFA66] mr-[16px] w-[81px] h-[24px]
+}
+
+
