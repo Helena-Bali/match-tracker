@@ -1,9 +1,11 @@
 .toggled-parent {
-    @apply bg-[#0B0E12] p-4 transition-all duration-300 ease-in-out transform overflow-hidden flex justify-center
+    @apply bg-[#0B0E12] p-4 transition-all duration-300 ease-in-out transform overflow-hidden
+    flex justify-center
 }
 
 .inner-toggled-parent {
-    @apply max-w-[1804px] min-h-[136px] bg-[#0B0E12] flex justify-around 2xl:w-full flex flex-col 2xl:flex-row
+    @apply max-w-[1804px] min-h-[136px] bg-[#0B0E12] flex justify-around xl:w-full
+    flex flex-col xl:flex-row
 }
 
 .team-container {
