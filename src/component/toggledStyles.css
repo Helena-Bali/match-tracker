@@ -1,17 +1,25 @@
 .toggled-parent {
-    @apply bg-[#0B0E12] p-4 transition-all duration-300 ease-in-out transform;
+    @apply bg-[#0B0E12] p-4 transition-all duration-300 ease-in-out transform overflow-hidden flex justify-center
 }
 
-.user-container {
-    @apply flex items-center justify-between mb-2 w-[286px] h-[52px] bg-[#101318]
+.inner-toggled-parent {
+    @apply max-w-[1804px] min-h-[136px] bg-[#0B0E12] flex justify-around 2xl:w-full flex flex-col 2xl:flex-row
+}
+
+.team-container {
+    @apply w-[49%] min-w-[500px] h-[112px] ml-2 mt-3
 }
 
 .user-parent-cont {
-    @apply flex items-center justify-between w-[874px] h-[52px]
+    @apply flex items-center justify-around w-full max-w-[874px] h-[52px] gap-2
+}
+
+.user-container {
+    @apply flex items-center justify-between mb-2 w-[33%] min-h-[52px] bg-[#101318] flex flex-col 2xl:flex-row
 }
 
 .score-container {
-    @apply flex items-center justify-center bg-[#101318] w-[874px] h-[52px] mt-2 gap-[200px]
+    @apply flex items-center justify-around bg-[#101318] max-w-[874px] h-[52px] mt-2
 }
 .score-item {
     @apply  mb-2 text-[#FAFAFA66]
@@ -22,22 +30,15 @@
 }
 
 .avatar-container {
-    @apply w-[149px] h-[36px] flex items-center ml-[8px]
+    @apply w-[149px] h-[36px] flex items-center ml-[2px]
 }
 
-.inner-toggled-parent {
-    @apply w-[1804px] h-[136px] bg-[#0B0E12]
-}
-
-.team-container {
-    @apply w-[874px] h-[112px] ml-3 mt-3
-}
 
 .avatar {
     @apply w-[36px] h-[36px] ml-[8px] mr-2
 }
 .murders-container {
-    @apply text-[#FAFAFA66] mr-[16px] w-[81px] h-[24px]
+    @apply text-[#FAFAFA66] mr-[0] w-[48%] h-[24px]
 }
 
 
